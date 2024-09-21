@@ -7,7 +7,7 @@
 class GameDictionary {
 public:
     void add_word( std::string );
-    std::set<std::string>& get_all_words( void ) const { return m_dictionary };
+    std::set<std::string> get_all_words( void ) const { return m_dictionary; };
     std::string get_random_word( void );
 
 private:

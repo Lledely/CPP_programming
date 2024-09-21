@@ -6,4 +6,4 @@ project(Wordly)
 include_directories(include)
 file (GLOB_RECURSE SOURCES "src/*.cc")
 
-add_executable(Main main.cc)
+add_executable(Game main.cc)
