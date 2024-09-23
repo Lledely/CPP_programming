@@ -6,7 +6,7 @@
 
 class Console_IO {
 public:
-    std::string guess();
+    static std::string guess( void );
 
 private:
 };

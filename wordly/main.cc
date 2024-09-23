@@ -4,7 +4,8 @@
 
 int main( int argc, char **argv, char **envp ) {
 
-    std::cout << "cock" << std::endl;
+    GameDictionary a = GameDictionary();
+    // std::cout << a.get_random_word() << std::endl;
 
     return 0;
 }
