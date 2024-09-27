@@ -1,10 +1,10 @@
-#include "include/ConsoleIO.h"
-#include "include/Game.h"
-#include "include/GameDictionary.h"
+#include <ConsoleIO.h>
+#include <Game.h>
+#include <GameDictionary.h>
 
 int main( int argc, char **argv, char **envp ) {
 
-    GameDictionary a = GameDictionary();
+    GameDictionary a = {};
     // std::cout << a.get_random_word() << std::endl;
 
     return 0;

@@ -1,7 +1,7 @@
-#include "include/GameDictionary.h"
+#include <GameDictionary.h>
 
 GameDictionary::GameDictionary( void ) {
-    // m_dictionary = std::set<std::string>( {} );
+    m_dictionary = std::set<std::string>( {} );
 }
 
 void GameDictionary::add_word( std::string word) {
