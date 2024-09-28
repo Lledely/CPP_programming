@@ -7,8 +7,8 @@ template <class K, class V>
 class Tree {
 public:
 
-    Tree( void );
-    Tree( K &, V & );
+    Tree( void ): m_head(nullptr);
+    Tree( const K &, const V & );
     Tree( const Node<K, V> & )
 
     void insert( K & ,V & );
